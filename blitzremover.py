@@ -1,6 +1,8 @@
 import os
 
-#Replace this variable with your directory. Use two backslashes.
+#Replace PATH_GOES_HERE with the path to your champions directory. Use two backslashes.
+#This is located under league_install/config/Champions
+
 champdirs = 'PATH_GOES_HERE'
 for root, dirs, files in os.walk(champdirs):
 
